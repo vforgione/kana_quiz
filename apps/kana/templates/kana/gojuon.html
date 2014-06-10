@@ -10,12 +10,6 @@
 </head>
 <body>
   <h1>gojuon</h1>
-
-  {% for char in chars %}
-  {% if not char.is_dakuten and not char.is_handakuten and not char.is_yoon %}
-  <div class="char">{{ char.romaji }}</div>
-  {% if char.gojuon_row == 4 %}<br class="clear" />{% endif %}
-  {% endif %}
-  {% endfor %}
+  {{ chars|safe }}
 </body>
 </html>
