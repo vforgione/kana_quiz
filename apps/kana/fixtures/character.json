@@ -1,0 +1,1562 @@
+[
+  {
+    "model": "kana.character",
+    "pk": 0,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": false,
+      "hiragana": "あ",
+      "gojuon_row": 0,
+      "katakana": "ア",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "a",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 1,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": false,
+      "hiragana": "い",
+      "gojuon_row": 1,
+      "katakana": "イ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "i",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 2,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": false,
+      "hiragana": "う",
+      "gojuon_row": 2,
+      "katakana": "ウ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "u",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 3,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": false,
+      "hiragana": "え",
+      "gojuon_row": 4,
+      "katakana": "エ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "e",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 4,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": false,
+      "hiragana": "か",
+      "gojuon_row": 0,
+      "katakana": "カ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ka",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 5,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": false,
+      "hiragana": "き",
+      "gojuon_row": 1,
+      "katakana": "キ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ki",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 6,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": false,
+      "hiragana": "く",
+      "gojuon_row": 2,
+      "katakana": "ク",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ku",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 7,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": false,
+      "hiragana": "け",
+      "gojuon_row": 3,
+      "katakana": "ケ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ke",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 8,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": false,
+      "hiragana": "こ",
+      "gojuon_row": 4,
+      "katakana": "コ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ko",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 9,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": false,
+      "hiragana": "さ",
+      "gojuon_row": 0,
+      "katakana": "サ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "sa",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 10,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": false,
+      "hiragana": "し",
+      "gojuon_row": 1,
+      "katakana": "シ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "shi",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 11,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": false,
+      "hiragana": "す",
+      "gojuon_row": 2,
+      "katakana": "ス",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "su",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 12,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": false,
+      "hiragana": "せ",
+      "gojuon_row": 3,
+      "katakana": "セ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "se",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 13,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": false,
+      "hiragana": "そ",
+      "gojuon_row": 4,
+      "katakana": "ソ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "so",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 14,
+    "fields": {
+      "gojuon_col": 3,
+      "is_dakuten": false,
+      "hiragana": "た",
+      "gojuon_row": 0,
+      "katakana": "タ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ta",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 15,
+    "fields": {
+      "gojuon_col": 3,
+      "is_dakuten": false,
+      "hiragana": "ち",
+      "gojuon_row": 1,
+      "katakana": "チ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "chi",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 16,
+    "fields": {
+      "gojuon_col": 3,
+      "is_dakuten": false,
+      "hiragana": "つ",
+      "gojuon_row": 2,
+      "katakana": "ツ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "tsu",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 17,
+    "fields": {
+      "gojuon_col": 3,
+      "is_dakuten": false,
+      "hiragana": "て",
+      "gojuon_row": 3,
+      "katakana": "テ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "te",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 18,
+    "fields": {
+      "gojuon_col": 3,
+      "is_dakuten": false,
+      "hiragana": "と",
+      "gojuon_row": 4,
+      "katakana": "ト",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "to",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 19,
+    "fields": {
+      "gojuon_col": 4,
+      "is_dakuten": false,
+      "hiragana": "な",
+      "gojuon_row": 0,
+      "katakana": "ナ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "na",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 20,
+    "fields": {
+      "gojuon_col": 4,
+      "is_dakuten": false,
+      "hiragana": "に",
+      "gojuon_row": 1,
+      "katakana": "ニ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ni",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 21,
+    "fields": {
+      "gojuon_col": 4,
+      "is_dakuten": false,
+      "hiragana": "ぬ",
+      "gojuon_row": 2,
+      "katakana": "ヌ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "nu",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 22,
+    "fields": {
+      "gojuon_col": 4,
+      "is_dakuten": false,
+      "hiragana": "ね",
+      "gojuon_row": 3,
+      "katakana": "ネ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ne",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 23,
+    "fields": {
+      "gojuon_col": 4,
+      "is_dakuten": false,
+      "hiragana": "の",
+      "gojuon_row": 4,
+      "katakana": "ノ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "no",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 24,
+    "fields": {
+      "gojuon_col": 5,
+      "is_dakuten": false,
+      "hiragana": "は",
+      "gojuon_row": 0,
+      "katakana": "ハ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ha",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 25,
+    "fields": {
+      "gojuon_col": 5,
+      "is_dakuten": false,
+      "hiragana": "ひ",
+      "gojuon_row": 1,
+      "katakana": "ヒ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "hi",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 26,
+    "fields": {
+      "gojuon_col": 5,
+      "is_dakuten": false,
+      "hiragana": "ふ",
+      "gojuon_row": 2,
+      "katakana": "フ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "fu",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 27,
+    "fields": {
+      "gojuon_col": 5,
+      "is_dakuten": false,
+      "hiragana": "へ",
+      "gojuon_row": 3,
+      "katakana": "ヘ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "he",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 28,
+    "fields": {
+      "gojuon_col": 5,
+      "is_dakuten": false,
+      "hiragana": "ほ",
+      "gojuon_row": 4,
+      "katakana": "ホ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ho",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 29,
+    "fields": {
+      "gojuon_col": 6,
+      "is_dakuten": false,
+      "hiragana": "ま",
+      "gojuon_row": 0,
+      "katakana": "マ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ma",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 30,
+    "fields": {
+      "gojuon_col": 6,
+      "is_dakuten": false,
+      "hiragana": "み",
+      "gojuon_row": 1,
+      "katakana": "ミ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "mi",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 31,
+    "fields": {
+      "gojuon_col": 6,
+      "is_dakuten": false,
+      "hiragana": "む",
+      "gojuon_row": 2,
+      "katakana": "ム",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "mu",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 32,
+    "fields": {
+      "gojuon_col": 6,
+      "is_dakuten": false,
+      "hiragana": "め",
+      "gojuon_row": 3,
+      "katakana": "メ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "me",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 33,
+    "fields": {
+      "gojuon_col": 6,
+      "is_dakuten": false,
+      "hiragana": "も",
+      "gojuon_row": 4,
+      "katakana": "モ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "mo",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 34,
+    "fields": {
+      "gojuon_col": 7,
+      "is_dakuten": false,
+      "hiragana": "や",
+      "gojuon_row": 0,
+      "katakana": "ヤ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ya",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 35,
+    "fields": {
+      "gojuon_col": 7,
+      "is_dakuten": false,
+      "hiragana": "ゆ",
+      "gojuon_row": 2,
+      "katakana": "ユ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "yu",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 36,
+    "fields": {
+      "gojuon_col": 7,
+      "is_dakuten": false,
+      "hiragana": "よ",
+      "gojuon_row": 4,
+      "katakana": "ヨ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "yo",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 37,
+    "fields": {
+      "gojuon_col": 8,
+      "is_dakuten": false,
+      "hiragana": "ら",
+      "gojuon_row": 0,
+      "katakana": "ラ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ra",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 38,
+    "fields": {
+      "gojuon_col": 8,
+      "is_dakuten": false,
+      "hiragana": "り",
+      "gojuon_row": 1,
+      "katakana": "リ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ri",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 39,
+    "fields": {
+      "gojuon_col": 8,
+      "is_dakuten": false,
+      "hiragana": "る",
+      "gojuon_row": 2,
+      "katakana": "ル",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ru",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 40,
+    "fields": {
+      "gojuon_col": 8,
+      "is_dakuten": false,
+      "hiragana": "れ",
+      "gojuon_row": 3,
+      "katakana": "レ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "re",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 41,
+    "fields": {
+      "gojuon_col": 8,
+      "is_dakuten": false,
+      "hiragana": "ろ",
+      "gojuon_row": 4,
+      "katakana": "ロ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ro",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 42,
+    "fields": {
+      "gojuon_col": 9,
+      "is_dakuten": false,
+      "hiragana": "わ",
+      "gojuon_row": 0,
+      "katakana": "ワ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "wa",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 43,
+    "fields": {
+      "gojuon_col": 9,
+      "is_dakuten": false,
+      "hiragana": "を",
+      "gojuon_row": 4,
+      "katakana": "ヲ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "wo",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 44,
+    "fields": {
+      "gojuon_col": 10,
+      "is_dakuten": false,
+      "hiragana": "ん",
+      "gojuon_row": 0,
+      "katakana": "ン",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "n",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 45,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": true,
+      "hiragana": "が",
+      "gojuon_row": 0,
+      "katakana": "ガ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ga",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 46,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": true,
+      "hiragana": "ぎ",
+      "gojuon_row": 1,
+      "katakana": "ギ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "gi",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 47,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": true,
+      "hiragana": "ぐ",
+      "gojuon_row": 2,
+      "katakana": "グ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "gu",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 48,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": true,
+      "hiragana": "げ",
+      "gojuon_row": 3,
+      "katakana": "ゲ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ge",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 49,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": true,
+      "hiragana": "ご",
+      "gojuon_row": 4,
+      "katakana": "ゴ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "go",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 50,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": true,
+      "hiragana": "ざ",
+      "gojuon_row": 0,
+      "katakana": "ザ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "za",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 51,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": true,
+      "hiragana": "じ",
+      "gojuon_row": 1,
+      "katakana": "ジ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ji",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 52,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": true,
+      "hiragana": "ず",
+      "gojuon_row": 2,
+      "katakana": "ズ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "zu",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 53,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": true,
+      "hiragana": "ぜ",
+      "gojuon_row": 3,
+      "katakana": "ゼ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ze",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 54,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": true,
+      "hiragana": "ぞ",
+      "gojuon_row": 4,
+      "katakana": "ゾ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "zo",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 55,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": true,
+      "hiragana": "だ",
+      "gojuon_row": 0,
+      "katakana": "ダ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "da",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 56,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": true,
+      "hiragana": "ぢ",
+      "gojuon_row": 1,
+      "katakana": "ヂ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ji",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 57,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": true,
+      "hiragana": "づ",
+      "gojuon_row": 2,
+      "katakana": "ヅ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "zu",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 58,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": true,
+      "hiragana": "で",
+      "gojuon_row": 3,
+      "katakana": "デ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "de",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 59,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": true,
+      "hiragana": "ど",
+      "gojuon_row": 4,
+      "katakana": "ド",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "do",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 60,
+    "fields": {
+      "gojuon_col": 3,
+      "is_dakuten": true,
+      "hiragana": "ば",
+      "gojuon_row": 0,
+      "katakana": "バ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ba",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 61,
+    "fields": {
+      "gojuon_col": 3,
+      "is_dakuten": true,
+      "hiragana": "び",
+      "gojuon_row": 1,
+      "katakana": "ビ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "bi",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 62,
+    "fields": {
+      "gojuon_col": 3,
+      "is_dakuten": true,
+      "hiragana": "ぶ",
+      "gojuon_row": 2,
+      "katakana": "ブ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "bu",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 63,
+    "fields": {
+      "gojuon_col": 3,
+      "is_dakuten": true,
+      "hiragana": "べ",
+      "gojuon_row": 3,
+      "katakana": "ベ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "be",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 64,
+    "fields": {
+      "gojuon_col": 3,
+      "is_dakuten": true,
+      "hiragana": "ぼ",
+      "gojuon_row": 4,
+      "katakana": "ボ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "bo",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 65,
+    "fields": {
+      "gojuon_col": 4,
+      "is_dakuten": false,
+      "hiragana": "ぱ",
+      "gojuon_row": 0,
+      "katakana": "パ",
+      "is_handakuten": true,
+      "notes": null,
+      "romaji": "pa",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 66,
+    "fields": {
+      "gojuon_col": 4,
+      "is_dakuten": false,
+      "hiragana": "ぴ",
+      "gojuon_row": 1,
+      "katakana": "ピ",
+      "is_handakuten": true,
+      "notes": null,
+      "romaji": "pi",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 67,
+    "fields": {
+      "gojuon_col": 4,
+      "is_dakuten": false,
+      "hiragana": "ぷ",
+      "gojuon_row": 2,
+      "katakana": "プ",
+      "is_handakuten": true,
+      "notes": null,
+      "romaji": "pu",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 68,
+    "fields": {
+      "gojuon_col": 4,
+      "is_dakuten": false,
+      "hiragana": "ぺ",
+      "gojuon_row": 3,
+      "katakana": "ペ",
+      "is_handakuten": true,
+      "notes": null,
+      "romaji": "pe",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 69,
+    "fields": {
+      "gojuon_col": 4,
+      "is_dakuten": false,
+      "hiragana": "ぽ",
+      "gojuon_row": 4,
+      "katakana": "ポ",
+      "is_handakuten": true,
+      "notes": null,
+      "romaji": "po",
+      "is_yoon": false
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 70,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": false,
+      "hiragana": "きゃ",
+      "gojuon_row": 0,
+      "katakana": "キャ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "kya",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 71,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": false,
+      "hiragana": "きゅ",
+      "gojuon_row": 1,
+      "katakana": "キュ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "kyu",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 72,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": false,
+      "hiragana": "きょ",
+      "gojuon_row": 2,
+      "katakana": "キョ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "kyo",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 73,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": false,
+      "hiragana": "しゃ",
+      "gojuon_row": 0,
+      "katakana": "シャ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "sha",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 74,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": false,
+      "hiragana": "しゅ",
+      "gojuon_row": 1,
+      "katakana": "シュ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "shu",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 75,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": false,
+      "hiragana": "しょ",
+      "gojuon_row": 2,
+      "katakana": "ショ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "sho",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 76,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": false,
+      "hiragana": "ちゃ",
+      "gojuon_row": 0,
+      "katakana": "チャ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "cha",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 77,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": false,
+      "hiragana": "ちゅ",
+      "gojuon_row": 1,
+      "katakana": "チュ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "chu",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 78,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": false,
+      "hiragana": "ちょ",
+      "gojuon_row": 2,
+      "katakana": "チョ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "cho",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 79,
+    "fields": {
+      "gojuon_col": 3,
+      "is_dakuten": false,
+      "hiragana": "にゃ",
+      "gojuon_row": 0,
+      "katakana": "ニャ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "nya",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 80,
+    "fields": {
+      "gojuon_col": 3,
+      "is_dakuten": false,
+      "hiragana": "にゅ",
+      "gojuon_row": 1,
+      "katakana": "ニュ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "nyu",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 81,
+    "fields": {
+      "gojuon_col": 3,
+      "is_dakuten": false,
+      "hiragana": "にょ",
+      "gojuon_row": 2,
+      "katakana": "ニョ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "nyo",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 82,
+    "fields": {
+      "gojuon_col": 4,
+      "is_dakuten": false,
+      "hiragana": "ひゃ",
+      "gojuon_row": 0,
+      "katakana": "ヒャ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "hya",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 83,
+    "fields": {
+      "gojuon_col": 4,
+      "is_dakuten": false,
+      "hiragana": "ひゅ",
+      "gojuon_row": 1,
+      "katakana": "ヒュ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "hyu",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 84,
+    "fields": {
+      "gojuon_col": 4,
+      "is_dakuten": false,
+      "hiragana": "ひょ",
+      "gojuon_row": 2,
+      "katakana": "ヒョ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "hyo",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 85,
+    "fields": {
+      "gojuon_col": 5,
+      "is_dakuten": false,
+      "hiragana": "みゃ",
+      "gojuon_row": 0,
+      "katakana": "ミャ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "mya",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 86,
+    "fields": {
+      "gojuon_col": 5,
+      "is_dakuten": false,
+      "hiragana": "みゅ",
+      "gojuon_row": 1,
+      "katakana": "ミュ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "myu",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 87,
+    "fields": {
+      "gojuon_col": 5,
+      "is_dakuten": false,
+      "hiragana": "みょ",
+      "gojuon_row": 2,
+      "katakana": "ミョ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "myo",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 88,
+    "fields": {
+      "gojuon_col": 6,
+      "is_dakuten": false,
+      "hiragana": "りゃ",
+      "gojuon_row": 0,
+      "katakana": "リャ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "rya",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 89,
+    "fields": {
+      "gojuon_col": 6,
+      "is_dakuten": false,
+      "hiragana": "りゅ",
+      "gojuon_row": 1,
+      "katakana": "リュ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ryu",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 90,
+    "fields": {
+      "gojuon_col": 6,
+      "is_dakuten": false,
+      "hiragana": "りょ",
+      "gojuon_row": 2,
+      "katakana": "リョ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ryo",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 91,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": true,
+      "hiragana": "ぎゃ",
+      "gojuon_row": 0,
+      "katakana": "ギャ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "gya",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 92,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": true,
+      "hiragana": "ぎゅ",
+      "gojuon_row": 1,
+      "katakana": "ギュ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "gyu",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 93,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": true,
+      "hiragana": "ぎょ",
+      "gojuon_row": 2,
+      "katakana": "ギョ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "gyo",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 94,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": true,
+      "hiragana": "じゃ",
+      "gojuon_row": 0,
+      "katakana": "ジャ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ja",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 95,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": true,
+      "hiragana": "じゅ",
+      "gojuon_row": 1,
+      "katakana": "ジュ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "ju",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 96,
+    "fields": {
+      "gojuon_col": 1,
+      "is_dakuten": true,
+      "hiragana": "じょ",
+      "gojuon_row": 2,
+      "katakana": "ジョ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "jo",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 97,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": true,
+      "hiragana": "びゃ",
+      "gojuon_row": 0,
+      "katakana": "ビャ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "bya",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 98,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": true,
+      "hiragana": "びゅ",
+      "gojuon_row": 1,
+      "katakana": "ビュ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "byu",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 99,
+    "fields": {
+      "gojuon_col": 2,
+      "is_dakuten": true,
+      "hiragana": "びょ",
+      "gojuon_row": 2,
+      "katakana": "ビョ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "byo",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 100,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": false,
+      "hiragana": "ぴゃ",
+      "gojuon_row": 0,
+      "katakana": "ピャ",
+      "is_handakuten": true,
+      "notes": null,
+      "romaji": "pya",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 101,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": false,
+      "hiragana": "ぴゅ",
+      "gojuon_row": 1,
+      "katakana": "ピュ",
+      "is_handakuten": true,
+      "notes": null,
+      "romaji": "pyu",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 102,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": false,
+      "hiragana": "ぴょ",
+      "gojuon_row": 2,
+      "katakana": "ピョ",
+      "is_handakuten": true,
+      "notes": null,
+      "romaji": "pyo",
+      "is_yoon": true
+    }
+  },
+  {
+    "model": "kana.character",
+    "pk": 103,
+    "fields": {
+      "gojuon_col": 0,
+      "is_dakuten": false,
+      "hiragana": "お",
+      "gojuon_row": 4,
+      "katakana": "オ",
+      "is_handakuten": false,
+      "notes": null,
+      "romaji": "o",
+      "is_yoon": false
+    }
+  }
+]
