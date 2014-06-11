@@ -4,12 +4,36 @@
   <meta charset="UTF-8">
   <title></title>
   <style>
-    div.char { float:right;font-size:2em;width:80px;text-align:center;font-weight:bold;background:#ccc;border:solid 1px #fff; }
-    br.clear { clear:both; }
+    .char { float:right;font-size:2em;width:80px;text-align:center;font-weight:bold;background:#ccc;border:solid 1px #fff; }
+    .clear { clear:both; }
   </style>
 </head>
 <body>
   <h1>gojuon</h1>
-  {{ chars|safe }}
+
+  {% load characters %}
+  {% for char in chars %}
+  <span class="char">{{ char|as_hiragana }}</span>
+  {% endfor %}
+
+  <br class="clear" />
+  <br class="clear" />
+
+  {% for char in chars %}
+  <span class="char">{{ char|as_katakana }}</span>
+  {% endfor %}
+
+  <br class="clear" />
+  <br class="clear" />
+
+  {% for char in chars %}
+  <span class="char">{{ char|as_romaji }}</span>
+  {% endfor %}
+
+  <br class="clear" />
+  <br class="clear" />
+
+  {% load gojuon %}
+  {% render_as_chart chars %}
 </body>
 </html>

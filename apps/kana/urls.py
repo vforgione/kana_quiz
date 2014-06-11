@@ -1,8 +1,8 @@
-from django.conf.urls import patterns, include, url
+from django.conf.urls import patterns, url
 
 
 urlpatterns = patterns(
     'apps.kana.views',
 
-    url(r'^gojuon', 'gojuon', name='gojuon'),
+    url(r'gojuon', 'gojuon', name='gojuon'),
 )
