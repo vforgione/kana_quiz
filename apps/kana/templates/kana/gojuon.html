@@ -4,36 +4,32 @@
   <meta charset="UTF-8">
   <title></title>
   <style>
-    .char { float:right;font-size:2em;width:80px;text-align:center;font-weight:bold;background:#ccc;border:solid 1px #fff; }
+    .char { float:right;font-size:3em;min-width:80px;min-height:70px;text-align:center;padding:20px 5px 5px 5px;background:#ccc;border:solid 1px #fff; }
     .clear { clear:both; }
+    rp,rt { font-size:0.25em;color:#333;font-weight:normal; }
+    ruby { font-weight:bold; }
   </style>
 </head>
 <body>
-  <h1>gojuon</h1>
+{% load characters %}
+{% load gojuon %}
 
-  {% load characters %}
-  {% for char in chars %}
-  <span class="char">{{ char|as_hiragana }}</span>
-  {% endfor %}
+{% if kana != None %}
+{#{% for char in chars %}<span class="char">{{ char|as_hiragana }}</span>{% endfor %}#}
+{% render_as_chart plain kana %}
+<br class="clear" />
+<br class="clear" />
+{% render_as_chart dakuten kana %}
+<br class="clear" />
+<br class="clear" />
+{% render_as_chart yoon kana %}
+<br class="clear" />
+<br class="clear" />
 
-  <br class="clear" />
-  <br class="clear" />
+{% else %}
+romaji?! why are you even here?
 
-  {% for char in chars %}
-  <span class="char">{{ char|as_katakana }}</span>
-  {% endfor %}
+{% endif %}
 
-  <br class="clear" />
-  <br class="clear" />
-
-  {% for char in chars %}
-  <span class="char">{{ char|as_romaji }}</span>
-  {% endfor %}
-
-  <br class="clear" />
-  <br class="clear" />
-
-  {% load gojuon %}
-  {% render_as_chart chars %}
 </body>
 </html>

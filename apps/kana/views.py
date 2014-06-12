@@ -4,12 +4,29 @@ from django.template import RequestContext
 from .models import *
 
 
-def gojuon(request):
-    chars = Character.objects.filter(is_dakuten=False, is_handakuten=False, is_yoon=False)
+"""
+home
+
+about
+
+gojuon
+    hiragana
+    katakana
+"""
+
+
+def gojuon(request, kana=None):
+    plain = Character.objects.filter(is_plain=True, is_dakuten=False, is_yoon=False)
+    dakuten = Character.objects.filter(is_dakuten=True, is_yoon=False)
+    yoon = Character.objects.filter(is_yoon=True)
+
     return render_to_response(
         'kana/gojuon.html',
         {
-            'chars': chars,
+            'plain': plain,
+            'dakuten': dakuten,
+            'yoon': yoon,
+            'kana': kana,
         },
         context_instance=RequestContext(request)
     )
