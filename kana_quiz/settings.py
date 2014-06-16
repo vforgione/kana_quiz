@@ -79,6 +79,8 @@ ROOT_URLCONF = 'kana_quiz.urls'
 
 WSGI_APPLICATION = 'kana_quiz.wsgi.application'
 
+APPEND_SLASH = False
+
 
 # site config
 ALLOWED_HOSTS = []

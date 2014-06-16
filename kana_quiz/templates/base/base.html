@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+{% load static %}
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title></title>
+
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/bootstrap-theme.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <!-- app link -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{% url 'kana:home' %}">Kana Quiz</a>
+    </div>
+    <!-- /app link -->
+    <!-- right float : collapse -->
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li><a href="{% url 'kana:home' %}">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kana Charts<b class="caret"></b></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="{% url 'kana:chart' 'hiragana' %}">Hiragana</a></li>
+            <li><a href="{% url 'kana:chart' 'katakana' %}">Katakana</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quizzes<b class="caret"></b></a>
+          <ul class="dropdown-menu" role="menu">
+            <li class="dropdown-header">Hiragana</li>
+            <li><a href="{% url 'kana:quiz' 'hiragana' %}">Standard</a></li>
+            <li><a href="{% url 'kana:quiz' 'hiragana' 'dakuten' %}">Dakuten &amp; Handakuten</a></li>
+            <li><a href="{% url 'kana:quiz' 'hiragana' 'youon' %}">Youon</a></li>
+            <li><a href="{% url 'kana:quiz' 'hiragana' 'all' %}">All</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Katakana</li>
+            <li><a href="{% url 'kana:quiz' 'katakana' %}">Standard</a></li>
+            <li><a href="{% url 'kana:quiz' 'katakana' 'dakuten' %}">Dakuten &amp; Handakuten</a></li>
+            <li><a href="{% url 'kana:quiz' 'katakana' 'youon' %}">Youon</a></li>
+            <li><a href="{% url 'kana:quiz' 'katakana' 'all' %}">All</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% block main_content %}{% endblock %}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="{% static 'js/vendor/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
+
+{% block contentjs %}{% endblock %}
+
+</body>
+</html>

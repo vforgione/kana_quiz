@@ -17,7 +17,7 @@ for i, char in enumerate(romaji):
     is_plain = i < 46
     is_dakuten = (i >= 46 and i < 71) or (i >= 92)
     is_handakuten = (i >= 66 and i < 71) or (i >= 101)
-    is_yoon = i >= 71
+    is_youon = i >= 71
 
     if is_plain:
         if char.endswith("A") or char.endswith("N"):
@@ -55,7 +55,7 @@ for i, char in enumerate(romaji):
         elif char.startswith("N") and len(char) == 1:
             gojuon_col = 10
 
-    elif not is_yoon and is_dakuten:
+    elif not is_youon and is_dakuten:
         if char.endswith("A"):
             gojuon_row = 0
         elif char.endswith("I"):
@@ -136,13 +136,13 @@ for i, char in enumerate(romaji):
 
     fixture = '{ "model": "kana.character", "pk": %(pk)s, "fields": { "romaji": "%(romaji)s", ' \
               '"hiragana": "%(hiragana)s", "katakana": "%(katakana)s", "is_plain": %(is_plain)s,' \
-              '"is_dakuten": %(is_dakuten)s, "is_handakuten": %(is_handakuten)s, "is_yoon": %(is_yoon)s,' \
+              '"is_dakuten": %(is_dakuten)s, "is_handakuten": %(is_handakuten)s, "is_youon": %(is_youon)s,' \
               '"gojuon_row": %(gojuon_row)s, "gojuon_col": %(gojuon_col)s, "alternate_romaji": %(alt)s, ' \
               '"notes": null } },'
     args = {
         'pk': i, 'romaji': char, 'hiragana': romkan.to_hiragana(char), 'katakana': romkan.to_katakana(char),
         'is_plain': str(is_plain).lower(), 'is_dakuten': str(is_dakuten).lower(),
-        'is_handakuten': str(is_handakuten).lower(), 'is_yoon': str(is_yoon).lower(),
+        'is_handakuten': str(is_handakuten).lower(), 'is_youon': str(is_youon).lower(),
         'gojuon_row': str(gojuon_row), 'gojuon_col': str(gojuon_col), 'alt': alt
     }
 

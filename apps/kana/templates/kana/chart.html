@@ -1,0 +1,67 @@
+{% extends 'base/rows.html' %}
+
+{% block content %}
+{% load gojuon %}
+
+<div class="row">
+  <h1>Kana</h1>
+  <p>
+    Kana (仮名) are Japanese syllabic scripts.
+  </p>
+  <p>
+    Each character of the kana corresponds to a sound following either a consonant-vowel pattern or a single vowel
+    pattern. There is one exception to this: the sound most similar to a Western <em>N</em> sound.
+  </p>
+  <p>
+    Traditional Japanese text is presented in <em>gojuon</em> order: top-down, right to left. This will be the method
+    used for the following charts.
+  </p>
+  <p>
+    There are also several blank tiles in the charts. For these blanks, there are no provided written or spoken
+    sounds - either they do not exist, or they have been excluded due to modern usage. There are also a few sounds
+    that are vocalized slightly differently than the normal pattern would suggest; take note of these special cases.
+  </p>
+</div>
+<br class="clear" />
+<br class="clear" />
+
+<div class="row">
+  <h2>{{ kana|title }}</h2>
+  {% render_as_chart plain kana %}
+</div>
+<br class="clear" />
+<br class="clear" />
+
+<div class="row">
+  <h2>Dakuten and Handakuten</h2>
+  <p>
+    Dakuten (濁点) characters are variants of standard kana characters used to indicated that the consonant of the
+    character should be voiced in its alternative form.
+  </p>
+  <p>
+    Handakuten (半濁点) are very similar to Dakuten, with the exception that they are applied only to the <em>H</em>
+    consonant stemmed characters to form a <em>P</em> sound.
+  </p>
+  {% render_as_chart dakuten kana %}
+</div>
+<br class="clear" />
+<br class="clear" />
+
+<div class="row">
+  <h2>Youon</h2>
+  <p>
+    Youon (拗音), or yōon, characters are special patterns in which an <em>I</em> tailed character is combined with a
+    <em>Y</em> consonant stemmed character.
+  </p>
+  {% if kana == 'hiragana' %}
+  <p>
+    In hiragana, as opposed to katakana, the Y-characters are written with a slightly smaller script. While this change
+    is subtle, in cases where only context would lend to the distinction between homonyms, the written form indicates
+    the intended word.
+  </p>
+  {% endif %}
+  {% render_as_chart youon kana %}
+</div>
+<br class="clear" />
+<br class="clear" />
+{% endblock %}

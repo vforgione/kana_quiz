@@ -1,31 +1,49 @@
+from django.db.models import Q
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 
 from .models import *
 
 
-"""
-home
-
-about
-
-gojuon
-    hiragana
-    katakana
-"""
+def home(request):
+    return render_to_response(
+        'kana/home.html', {}, context_instance=RequestContext(request)
+    )
 
 
-def gojuon(request, kana=None):
-    plain = Character.objects.filter(is_plain=True, is_dakuten=False, is_yoon=False)
-    dakuten = Character.objects.filter(is_dakuten=True, is_yoon=False)
-    yoon = Character.objects.filter(is_yoon=True)
+def chart(request, kana):
+    plain = Character.objects.filter(is_plain=True, is_dakuten=False, is_youon=False)
+    dakuten = Character.objects.filter(is_dakuten=True, is_youon=False)
+    youon = Character.objects.filter(is_youon=True)
 
     return render_to_response(
-        'kana/gojuon.html',
+        'kana/chart.html',
         {
             'plain': plain,
             'dakuten': dakuten,
-            'yoon': yoon,
+            'youon': youon,
+            'kana': kana,
+        },
+        context_instance=RequestContext(request)
+    )
+
+
+def quiz(request, kana, group=None):
+    chars = Character.objects.all()
+
+    if group is None:
+        chars = chars.filter(is_plain=True)
+    elif group == 'dakuten':
+        chars = chars.filter(Q(is_dakuten=True) & Q(is_youon=False))
+    elif group == 'youon':
+        chars = chars.filter(is_youon=True)
+    elif group == 'all':
+        pass
+
+    return render_to_response(
+        'kana/quiz.html',
+        {
+            'chars': chars,
             'kana': kana,
         },
         context_instance=RequestContext(request)

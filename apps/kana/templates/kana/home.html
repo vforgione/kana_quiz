@@ -1,0 +1,21 @@
+{% extends 'base/jumbotron.html' %}
+
+{% block jumbotron %}
+<div id="hello" class="hello"></div>
+<div>
+  <p>
+    Welcome to Kana Quiz!
+  </p>
+</div>
+{% endblock %}
+
+{% block contentjs %}
+<script type="text/javascript">
+  var date = new Date();
+  var hour = date.toString().split(" ")[4].split(":")[0];
+  var div = $("#hello");
+  if (hour >= 4 && hour < 11) { div.text("おはよう!"); }
+  else if (hour >= 11 && hour < 19) { div.text("こんにちわ!"); }
+  else { div.text("こんばんわ!"); }
+</script>
+{% endblock %}

@@ -54,5 +54,4 @@ class ChartNode(template.Node):
                     output += '<div class="char">&nbsp;</div>'
             output += '<br class="clear" />'
 
-        # return '<div><h3>puke</h3></div>'
         return output

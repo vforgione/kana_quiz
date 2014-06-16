@@ -11,7 +11,7 @@ class Character(models.Model):
     is_plain = models.BooleanField()
     is_dakuten = models.BooleanField()
     is_handakuten = models.BooleanField()
-    is_yoon = models.BooleanField()
+    is_youon = models.BooleanField()
     # charting
     gojuon_row = models.IntegerField()
     gojuon_col = models.IntegerField()
