@@ -5,7 +5,7 @@ register = template.Library()
 
 
 @register.tag
-def render_as_quiz(parser, token):
+def make_quiz_js(parser, token):
     bits = token.split_contents()
     try:
         tag = bits.pop(0)
@@ -43,7 +43,7 @@ class QuizNode(template.Node):
 
         js = '<script type="text/javascript">\n'
         js += '\n'.join([
-            js_chars, js_chars_log
+            js_chars  #, js_chars_log
         ])
         js += '\n</script>'
 

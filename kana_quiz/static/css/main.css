@@ -63,8 +63,8 @@ ruby {
 .quiz-char {
   font-size: 5em;
   text-align: center;
-  background-color: #eee;
-  border: none;
+  background-color: inherit;
+  border: inherit;
 }
 
 .row {
